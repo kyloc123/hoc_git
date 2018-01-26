@@ -7,3 +7,4 @@ else:
         so = int(raw_input("nhap vao so nguyen duong"))
         if so > 0:
             list_test.append(so)
+ngoc
