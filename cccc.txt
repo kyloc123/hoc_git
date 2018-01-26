@@ -1,0 +1,9 @@
+list_test = []
+n = int(raw_input("nhap vao so luong so co trong mang:"))
+if n <5:
+    print "so luong phai lon hon 5"
+else:
+    for i in range(1,n+1):
+        so = int(raw_input("nhap vao so nguyen duong"))
+        if so > 0:
+            list_test.append(so)
